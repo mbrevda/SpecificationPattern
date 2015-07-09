@@ -1,0 +1,15 @@
+<phpunit
+    color="true"
+    backupGlobals="false"
+    bootstrap="../vendor/autoload.php"
+    >
+    <testsuites>
+        <testsuite name="Unit">
+            <directory>./</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+</phpunit>

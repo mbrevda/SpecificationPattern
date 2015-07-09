@@ -1,0 +1,32 @@
+{
+    "name": "mbrevda/specifcation",
+    "description": "A sample implementation of the Specification Pattern in PHP",
+    "authors": [
+        {
+            "name": "Moshe Brevda",
+            "email": "mbrevda@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "jakub-onderka/php-parallel-lint": "0.*",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mbrevda\\Specification\\": "src/",
+            "Mbrevda\\Specification\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "process-timeout": 30
+
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c tests/phpunit.xml"
+    }
+}

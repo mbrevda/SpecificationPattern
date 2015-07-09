@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Pepsi Cola",
+        "hasSentNotice": false,
+        "dueDate": 2436368243,
+        "isInCollection": false
+    },
+    {
+        "name": "Coca Cola",
+        "hasSentNotice": false,
+        "dueDate": 200,
+        "isInCollection": true
+    },
+    {
+        "name": "Tempo",
+        "hasSentNotice": true,
+        "dueDate": 1255555,
+        "isInCollection": false
+    },
+    {
+        "name": "Osem",
+        "hasSentNotice": false,
+        "dueDate": 200,
+        "isInCollection": false
+    }
+]
