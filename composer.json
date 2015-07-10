@@ -1,5 +1,5 @@
 {
-    "name": "mbrevda/specifcation",
+    "name": "mbrevda/specifcation-pattern",
     "description": "A sample implementation of the Specification Pattern in PHP",
     "authors": [
         {
@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Mbrevda\\Specification\\": "src/",
-            "Mbrevda\\Specification\\Tests\\": "tests/"
+            "Mbrevda\\SpecificationPattern\\": "src/",
+            "Mbrevda\\SpecificationPattern\\Tests\\": "tests/"
         }
     },
     "config": {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Mbrevda\Specification;
+namespace Mbrevda\SpecificationPattern;
 
-use \Mbrevda\Specification\SpecificationInterface;
-use \Mbrevda\Specification\AndSpecification;
-use \Mbrevda\Specification\OrSpecification;
-use \Mbrevda\Specification\NotSpecification;
+use \Mbrevda\SpecificationPattern\SpecificationInterface;
+use \Mbrevda\SpecificationPattern\AndSpecification;
+use \Mbrevda\SpecificationPattern\OrSpecification;
+use \Mbrevda\SpecificationPattern\NotSpecification;
 
 abstract class CompositeSpecification implements SpecificationInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Mbrevda\Specification;
+namespace Mbrevda\SpecificationPattern;
 
 interface SpecificationInterface
 {

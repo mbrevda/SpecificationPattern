@@ -1,8 +1,8 @@
 <?php
 
-namespace Mbrevda\Specification\Tests\Mocks;
+namespace Mbrevda\SpecificationPattern\Tests\Mocks;
 
-use \Mbrevda\Specification\CompositeSpecification;
+use \Mbrevda\SpecificationPattern\CompositeSpecification;
 
 class OverDueSpecification extends CompositeSpecification
 {

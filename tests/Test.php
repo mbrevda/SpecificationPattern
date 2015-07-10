@@ -1,11 +1,11 @@
 <?php
 
-namespace Mbrevda\Specification\Tests;
+namespace Mbrevda\SpecificationPattern\Tests;
 
-use Mbrevda\Specification\NotSpecification;
-use Mbrevda\Specification\Tests\Mocks\OverDueSpecification;
-use Mbrevda\Specification\Tests\Mocks\NoticeNotSentSpecification;
-use Mbrevda\Specification\Tests\Mocks\InCollectionSpecification;
+use Mbrevda\SpecificationPattern\NotSpecification;
+use Mbrevda\SpecificationPattern\Tests\Mocks\OverDueSpecification;
+use Mbrevda\SpecificationPattern\Tests\Mocks\NoticeNotSentSpecification;
+use Mbrevda\SpecificationPattern\Tests\Mocks\InCollectionSpecification;
 
 class Tests extends \PHPUnit_Framework_TestCase
 {

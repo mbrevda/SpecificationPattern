@@ -1,9 +1,9 @@
 <?php
 
-namespace Mbrevda\Specification;
+namespace Mbrevda\SpecificationPattern;
 
-use \Mbrevda\Specification\SpecificationInterface;
-use \Mbrevda\Specification\CompositeSpecification;
+use \Mbrevda\SpecificationPattern\SpecificationInterface;
+use \Mbrevda\SpecificationPattern\CompositeSpecification;
 
 class OrSpecification extends CompositeSpecification
 {
